@@ -32,7 +32,7 @@ let projects = [
     url: 'https://github.com/asirahbab01/Bus-Management',
   },
   {
-    image: 'textures/voting.jpg',
+    image: 'textures/voting.png',
     url: 'https://github.com/asirahbab01/BiometricVotingMachine',
   },
   {
@@ -195,7 +195,7 @@ gltfLoader.load(
 
         // adding texture to book
         const bookTexture = new THREE.TextureLoader().load(
-          'textures/book-1.jpg'
+          'textures/book-1.png'
         );
         bookTexture.flipY = false;
         child.material = new THREE.MeshStandardMaterial({
