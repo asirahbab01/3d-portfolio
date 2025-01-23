@@ -1,8 +1,6 @@
 import './style.css';
 import * as THREE from 'three';
-import * as dat from 'dat.gui';
 import gsap from 'gsap';
-import Stats from 'three/addons/libs/stats.module.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader';
