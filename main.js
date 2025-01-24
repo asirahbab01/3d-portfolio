@@ -681,7 +681,7 @@ function init3DWorldClickListeners() {
       e.target === closeBtn ||
       closeBtn.contains(e.target) ||
       e.target === projectsBtn ||
-      projectsBtn.contains(e.target)
+      projectsBtn.contains(e.target) 
     ) {
       return false;
     }
