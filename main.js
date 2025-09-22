@@ -340,7 +340,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
     const subTitleGeo = new TextGeometry(
-      'Network Engineer / Software Developer / CTF Player',
+      'Cybersecurity Engineer / Software Developer / IT Auditor',
       {
         font: font,
         size: 0.018,
