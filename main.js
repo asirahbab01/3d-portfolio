@@ -340,7 +340,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
     const subTitleGeo = new TextGeometry(
-      'Cybersecurity      del .git\index.lock      del .git\index.lock Engineer / Software Developer / IT Auditor',
+      'Cybersecurity Engineer / Software Developer / IT Auditor',
       {
         font: font,
         size: 0.018,
