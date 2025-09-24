@@ -76,6 +76,11 @@ header {
   filter: brightness(0) invert(1);
 }
 
+.dark-theme .glow-logo {
+  filter: drop-shadow(0 0 6px #00eaff) drop-shadow(0 0 12px #00eaff);
+  transition: filter 0.3s;
+}
+
 .main-nav ul,
 .side-nav ul {
   margin: 0;
